@@ -69,7 +69,55 @@ body {
   font-weight: 700;
   padding: 16px 0 48px 0;
 }
-.discount-pic{
+.discount-pic {
   display: flex;
   justify-content: center;
+}
+/* midnight section work start */
+.midnight-container {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  margin-left: 14%;
+  margin-right: 14%;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  gap: 40px;
+  margin-top: 120px;
+  height: 600px;
+}
+.midnight-text-section {
+  padding-left: 162px;
+}
+.midnight-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  padding-top: 126px;
+}
+.midnight-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+.midnight-text-section > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 25px;
+}
+.midnight-photo img {
+  padding-top: 77px;
+ 
 }
