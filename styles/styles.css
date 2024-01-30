@@ -119,5 +119,259 @@ body {
 }
 .midnight-photo img {
   padding-top: 77px;
- 
+}
+/* time section */
+.time {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 482px;
+  margin-left: 14%;
+  margin-right: 15.5%;
+  border-radius: 16px;
+  margin-top: 120px;
+}
+#time-title {
+  padding-top: 100px;
+}
+.time h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.code {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.time-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+}
+.btn-time {
+  border: 0;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* best offer section work start */
+.best-offer {
+  display: flex;
+  margin-left: 14%;
+  margin-right: 15.5%;
+  margin-top: 120px;
+}
+.offer-text-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  padding-top: 104px;
+}
+.offer-text-bold-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 22px;
+}
+.offer-text-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.offer-pic img {
+  border-radius: 50%;
+  border: 15px solid #f00;
+  padding: 50px;
+}
+.offer-pic {
+  padding-left: 70px;
+  padding-right: 118px;
+}
+.offer-time-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 112px;
+  padding-bottom: 16px;
+}
+.offer-time-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 43px;
+}
+/* holidays work start */
+.holidays {
+  margin-left: 14%;
+  margin-right: 15.5%;
+  margin-top: 120px;
+  text-align: center;
+}
+.holidays-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holidays-bold-title {
+  color: #f00;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding-top: 16px;
+}
+.sale-of {
+  color: #070211;
+}
+.holidays-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 28px;
+}
+/* holiday banner section work start */
+
+.holidays-pic {
+  margin-left: 14%;
+  margin-right: 15.5%;
+  margin-top: -190px;
+}
+
+.upper-photos {
+  display: flex;
+}
+.box-img img {
+  position: relative;
+  top: 230px;
+}
+.bag-lady {
+  position: relative;
+  top: 235px;
+  /* right: 213px; */
+  left: 93.5px;
+}
+.half-off {
+  position: relative;
+  top: 315px;
+  right: 500px;
+}
+/* gift section work */
+.gift {
+  margin-left: 14%;
+  margin-right: 15.5%;
+  margin-top: 120px;
+}
+.gift-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.gift-bold-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 16px;
+  padding-bottom: 22px;
+}
+.gift-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 48px;
+}
+.first {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.second {
+  display: flex;
+  gap: 24px;
+}
+/* subscribe section */
+.subscribe {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  margin-left: 14%;
+  margin-right: 16.5%;
+  margin-top: 120px;
+  text-align: center;
+}
+.email-pic {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.subscribe-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 48px;
+}
+.email-box input {
+  border-radius: 50px;
+  background: #fff;
+  border: 0;
+  width: 648px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+}
+.sub-btn {
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0;
+  padding: 22px 56px;
+  padding-bottom: 21px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+  right: 100px;
+  top: 3px;
 }
